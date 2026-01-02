@@ -52,7 +52,7 @@ if (date.getHours() >= 18){
 document.querySelector(".welcome").innerHTML = welcome;
 
 function toHome(){
-    location.href = 'documents.html?' + params;
+    location.href = '/documents?' + params;
 }
 
 var input = document.querySelector(".password_input");
